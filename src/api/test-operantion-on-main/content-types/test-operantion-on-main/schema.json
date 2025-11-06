@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_operantion_on_mains",
+  "info": {
+    "singularName": "test-operantion-on-main",
+    "pluralName": "test-operantion-on-mains",
+    "displayName": "test operantion on main"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Test": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
