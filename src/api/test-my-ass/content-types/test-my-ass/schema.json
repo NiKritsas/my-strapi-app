@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_my_asses",
+  "info": {
+    "singularName": "test-my-ass",
+    "pluralName": "test-my-asses",
+    "displayName": "Test my ass @@!!!"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "yes": {
+      "type": "boolean",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "isthatit": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
