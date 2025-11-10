@@ -1,0 +1,142 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::test-my-ass.test-my-ass",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "documentId",
+      "defaultSortBy": "documentId",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "yes": {
+        "edit": {
+          "label": "yes",
+          "description": "yes or no your choce ",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "yes",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "isthatit": {
+        "edit": {
+          "label": "isthatit",
+          "description": "hello is this going to work or what ",
+          "placeholder": "hello ",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "isthatit",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "documentId": {
+        "edit": {},
+        "list": {
+          "label": "documentId",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "yes",
+            "size": 4
+          },
+          {
+            "name": "isthatit",
+            "size": 4
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "yes",
+        "isthatit",
+        "createdAt"
+      ]
+    },
+    "uid": "api::test-my-ass.test-my-ass"
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
